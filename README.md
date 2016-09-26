@@ -1,6 +1,8 @@
 
 # querystring.c
 
+  [![Build Status](https://travis-ci.org/jb55/querystring.c.svg)](https://travis-ci.org/jb55/querystring.c)
+
   Simple C querystring parser
 
 ## Installation
