@@ -7,7 +7,7 @@
 
 ## Installation
 
-  Install with clib
+  Install with [clib](https://github.com/clibs/clib)
 
     $ clib install jb55/querystring.c
     
