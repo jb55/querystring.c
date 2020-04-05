@@ -2,6 +2,7 @@
 PREFIX ?= /usr/local
 OBJ ?= querystring.o
 STATIC ?= querystring.a
+CFLAGS = -Wall -Werror
 
 all: $(STATIC)
 

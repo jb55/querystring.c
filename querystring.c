@@ -3,10 +3,10 @@
 
 void parse_querystring(char *qs, void *data, void (*pair)(void *, char *,char *)) {
   char *ands, *ands_r;
-  char *equals, *equals_r;
+  char *equals_r;
   char *first;
   char *second;
-  
+
   if (qs && qs[0] == '?')
     qs++;
 
@@ -18,4 +18,3 @@ void parse_querystring(char *qs, void *data, void (*pair)(void *, char *,char *)
       ands = strtok_r(NULL, "&", &ands_r);
     }
 }
-
