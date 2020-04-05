@@ -1,6 +1,6 @@
 {
   "name": "querystring",
-  "version": "0.1",
+  "version": "0.1.1",
   "repo": "https://github.com/jb55/querystring.c",
   "description": "querystring parser",
   "keywords": ["querystring", "uri"],
